@@ -1,0 +1,200 @@
+/* CSS Libraries Used 
+
+*Animate.css by Daniel Eden.
+*FontAwesome 4.7.0
+*Typicons
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
+
+body, html {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #BFDCF3;
+  padding: 0;
+  margin: 0;
+  min-height: 100%;
+
+
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#footer{
+  position: absolute;
+  bottom: 0px;
+ 
+}
+
+
+
+
+
+.container{
+  margin: 0;
+  top: 50px;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  transform: translateX(-50%);
+  background-color:rgba(88, 88, 88, 0.4);
+  border-radius: 9px;
+
+  width: 400px;
+  height: 750PX;
+}
+
+.box h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #0B4A7F; 
+  margin-top:94px;;
+}
+
+.box h1 span {
+  color: #dfdeee;
+  font-weight: lighter;
+}
+
+.box h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #111213;
+  letter-spacing: 1.5px;
+  margin-top: -15px;
+  margin-bottom: 70px;
+}
+
+#two  {
+  position: absolute;
+  bottom: 30px;
+  margin-left:110px;
+}
+.box h5 {
+  position: absolute;
+  bottom: 0px;
+  margin-left:110px;
+}
+
+
+.box input[type = "text"],.box input[type = "password"] {
+  display: block;
+  margin: 20px auto;
+  background: rgba(88,88,88,0.4);
+  border: 0;
+  border-radius: 5px;
+  padding: 14px 10px;
+  width: 320px;
+  outline: none;
+  color: #d6d6d6;
+      -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+  
+}
+
+.box input:hover, .box input:focus {
+	outline: none;
+	background-color: rgba(255, 255, 255, 0.5);
+	color: black;
+
+
+}
+
+
+a{
+  color:#0B4A7F;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ label input[type = "checkbox"] {
+  display: none; /* hide the default checkbox */
+}
+
+/* style the artificial checkbox */
+label span {
+  height: 9px;
+  width: 9px;
+  border: 2px solid #0B4A7F;
+  border-radius: 2px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  left: -15%;
+}
+
+.btn1 {
+  border:0;
+  background: #0B4A7F;
+  color: #dfdeee;
+  border-radius: 100px;
+  width: 340px;
+  height: 49px;
+  font-size: 16px;
+  left: 8%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.btn1:hover {
+  background: rgba(88, 88, 88, 0.4);
+}
+
+.rmb {
+  position: absolute;
+  margin-left: -43%;
+  margin-top: 0px;
+  color: #dfdeee;
+  font-size: 13px;
+}
+
+
+
+[type=checkbox]:checked + span:before {/* <-- style its checked state */
+    font-family: FontAwesome;
+    font-size: 16px;
+    content: "\f00c";
+    position: absolute;
+    top: -4px;
+    color: #0B4A7F; 
+    left: -15%;
+    width: 13px;
+}
+
+.typcn {
+  position: absolute;
+  left: 339px;
+  top: 282px;
+  color: #0B4A7F;
+  font-size: 22px;
+  cursor: pointer;
+}      
+
+.typcn.active {
+  color: #e0e4f2;
+}
+
+.error {
+  background: #ff3333;
+  text-align: center;
+  width: 337px;
+  height: 20px;
+  padding: 2px;
+  border: 0;
+  border-radius: 5px;
+  margin: 10px auto 10px;
+  position: absolute;
+  top: 25%;
+  left: 7.2%;
+  color: white;
+  display: none;
+}
+
